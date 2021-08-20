@@ -50,10 +50,10 @@ fi
 #Delete Existing Devices
 if [ $1 == "input" ]
 then
-  sudo "$SCRIPTPATH/audio-devices" aggregate destroy $($SCRIPTPATH/audio-devices list --input | grep "To Mixer"| sed -e 's/-.*//' -e 's/ *$//') > /dev/null 2>&1
+  sudo "$SCRIPTPATH/audio-devices" aggregate destroy $("$SCRIPTPATH/audio-devices" list --input | grep "To Mixer"| sed -e 's/-.*//' -e 's/ *$//') > /dev/null 2>&1
 else
-  sudo "$SCRIPTPATH/audio-devices" aggregate destroy $($SCRIPTPATH/audio-devices list --output | grep "From Mixer"| sed -e 's/-.*//' -e 's/ *$//') > /dev/null 2>&1
-  sudo "$SCRIPTPATH/audio-devices" aggregate destroy $($SCRIPTPATH/audio-devices list --output | grep "Mixer & Monitoring"| sed -e 's/-.*//' -e 's/ *$//') > /dev/null 2>&1
+  sudo "$SCRIPTPATH/audio-devices" aggregate destroy $("$SCRIPTPATH/audio-devices" list --output | grep "From Mixer"| sed -e 's/-.*//' -e 's/ *$//') > /dev/null 2>&1
+  sudo "$SCRIPTPATH/audio-devices" aggregate destroy $("$SCRIPTPATH/audio-devices" list --output | grep "Mixer & Monitoring"| sed -e 's/-.*//' -e 's/ *$//') > /dev/null 2>&1
 fi
 
 if [ $1 == "input" ]
