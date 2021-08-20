@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 10,
+			"revision" : 11,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -49,7 +49,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -303,7 +303,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -557,7 +557,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -854,7 +854,7 @@
 									"patching_rect" : [ 194.25, 89.0, 29.5, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 85.75, 40.0, 29.5, 22.0 ],
-									"text" : "2.4"
+									"text" : "2.6"
 								}
 
 							}
@@ -894,7 +894,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 215.2236328125, 121.0, 22.0 ],
-									"restore" : [ "https://github.com/mattingalls/Soundflower/releases/latest" ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -913,7 +913,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 245.5, 151.2236328125, 134.0, 22.0 ],
-									"restore" : [ "https://github.com/michaelphagen/ZoomMixer/releases/latest" ],
+									"restore" : [ "meow" ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -951,7 +951,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 245.5, 109.2236328125, 93.0, 22.0 ],
-									"restore" : [ "Zoom", "Mixer" ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -970,7 +970,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 113.2236328125, 101.0, 22.0 ],
-									"restore" : [ 2.4 ],
+									"restore" : [ 2.6 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1434,7 +1434,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 204.0, 670.0, 109.0, 22.0 ],
-					"restore" : [ 2 ],
+					"restore" : [ 1 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1621,7 +1621,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 79.0, 765.0, 50.0, 22.0 ],
-					"text" : "1"
+					"text" : "0"
 				}
 
 			}
@@ -1697,7 +1697,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1763,7 +1763,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ -139.0, 261.0, 50.0, 22.0 ],
-									"text" : "set 1"
+									"text" : "set 2"
 								}
 
 							}
@@ -1775,7 +1775,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ -76.0, 312.0, 50.0, 22.0 ],
-									"text" : "set 1"
+									"text" : "set 2"
 								}
 
 							}
@@ -1811,7 +1811,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ -35.0, 87.0, 133.0, 22.0 ],
-									"restore" : [ 1 ],
+									"restore" : [ 2 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1830,7 +1830,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ -100.0, 43.0, 140.0, 22.0 ],
-									"restore" : [ 1 ],
+									"restore" : [ 2 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -1977,7 +1977,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2128,7 +2128,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2356,7 +2356,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2612,7 +2612,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3008,7 +3008,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-115",
-									"items" : [ "None", ",", "Built-in Output", ",", "Multi-Output Device" ],
+									"items" : [ "None", ",", "Built-in Output", ",", "HDMI (1)", ",", "HDMI (2)", ",", "PRISM Live Studio", ",", "Loopback Audio", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3039,7 +3039,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-117",
-									"items" : [ "None", ",", "Built-in Microphone" ],
+									"items" : [ "None", ",", "Built-in Microphone", ",", "Antlion USB Microphone", ",", "Unknown USB Audio Device", ",", "PRISM Live Studio", ",", "Loopback Audio", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3734,7 +3734,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3966,7 +3966,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -4100,7 +4100,7 @@
 									"patching_rect" : [ 207.0, 108.0, 150.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 207.0, 32.0, 150.0, 20.0 ],
-									"text" : "Version:  2.40",
+									"text" : "Version:  2.60",
 									"textjustification" : 1
 								}
 
@@ -4778,7 +4778,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -5015,7 +5015,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-44",
-									"items" : [ "None", ",", "Built-in Output", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Multi-Output Device" ],
+									"items" : [ "None", ",", "Mixer & Monitoring", ",", "Built-in Output", ",", "HDMI (1)", ",", "HDMI (2)", ",", "To Mixer", ",", "From Mixer", ",", "PRISM Live Studio", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Loopback Audio", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5042,7 +5042,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-40",
-									"items" : [ "None", ",", "Built-in Microphone", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)" ],
+									"items" : [ "None", ",", "Built-in Microphone", ",", "Antlion USB Microphone", ",", "Unknown USB Audio Device", ",", "To Mixer", ",", "PRISM Live Studio", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Loopback Audio", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5395,7 +5395,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6740,7 +6740,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -6874,7 +6874,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6916,7 +6916,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 707.0, 778.638977000000068, 129.0, 22.0 ],
-													"restore" : [ "set", " +", "a" ],
+													"restore" : [ "set", " +", "" ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -6935,7 +6935,7 @@
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "" ],
 													"patching_rect" : [ 555.5, 778.638977000000068, 129.0, 22.0 ],
-													"restore" : [ "set", " +", "Shift" ],
+													"restore" : [ "set", " +", "Option" ],
 													"saved_object_attributes" : 													{
 														"parameter_enable" : 0,
 														"parameter_mappable" : 0
@@ -6974,7 +6974,7 @@
 													"patching_rect" : [ 683.0, 709.0, 81.0, 20.0 ],
 													"presentation" : 1,
 													"presentation_rect" : [ 182.0, 91.0, 81.0, 20.0 ],
-													"text" : " + a"
+													"text" : " + "
 												}
 
 											}
@@ -6987,7 +6987,7 @@
 													"patching_rect" : [ 572.5, 709.0, 81.0, 20.0 ],
 													"presentation" : 1,
 													"presentation_rect" : [ 129.799999952316284, 91.0, 81.0, 20.0 ],
-													"text" : " + Shift"
+													"text" : " + Option"
 												}
 
 											}
@@ -7040,7 +7040,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 10,
+															"revision" : 11,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -7352,7 +7352,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 10,
+															"revision" : 11,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -7663,7 +7663,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 10,
+															"revision" : 11,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -8197,7 +8197,7 @@
 													"allowdrag" : 0,
 													"fontsize" : 11.595186999999999,
 													"id" : "obj-28",
-													"items" : [ "USB Optical Mouse", ",", "Apple Extended USB Keyboard", ",", "Apple Extended USB Keyboard 2" ],
+													"items" : [ "Wireless Keyboard", ",", "Wireless Trackpad", ",", "Apple Mikey HID Driver", ",", "Antlion USB Microphone", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3" ],
 													"labelclick" : 1,
 													"maxclass" : "umenu",
 													"numinlets" : 1,
@@ -8279,7 +8279,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 10,
+															"revision" : 11,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -8349,7 +8349,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 10,
+																			"revision" : 11,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -8698,7 +8698,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 10,
+															"revision" : 11,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -8768,7 +8768,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 10,
+																			"revision" : 11,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -9117,7 +9117,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 10,
+															"revision" : 11,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -9187,7 +9187,7 @@
 																		"appversion" : 																		{
 																			"major" : 8,
 																			"minor" : 1,
-																			"revision" : 10,
+																			"revision" : 11,
 																			"architecture" : "x64",
 																			"modernui" : 1
 																		}
@@ -9536,7 +9536,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 10,
+															"revision" : 11,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -9809,7 +9809,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 10,
+															"revision" : 11,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -10170,7 +10170,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 10,
+															"revision" : 11,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -10666,7 +10666,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 10,
+															"revision" : 11,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -12224,7 +12224,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -12600,7 +12600,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -12795,7 +12795,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -13058,7 +13058,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -13253,7 +13253,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -13654,7 +13654,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -13786,7 +13786,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 10,
+															"revision" : 11,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -14213,7 +14213,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -14271,7 +14271,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 10,
+															"revision" : 11,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -14540,7 +14540,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -14598,7 +14598,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 10,
+															"revision" : 11,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -14867,7 +14867,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -14999,7 +14999,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 10,
+															"revision" : 11,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -15380,7 +15380,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 11,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -15525,7 +15525,7 @@
 														"appversion" : 														{
 															"major" : 8,
 															"minor" : 1,
-															"revision" : 10,
+															"revision" : 11,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -17259,7 +17259,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -17885,7 +17885,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 11,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -20088,9 +20088,16 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "shelly.notification.maxpat",
+				"bootpath" : "~/Documents/Max 8/Packages/Shelly/externals",
+				"patcherrelativepath" : "../../Max 8/Packages/Shelly/externals",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "preferences.json",
 				"bootpath" : "~/Library/Preferences/ZoomMixer",
-				"patcherrelativepath" : "../../Library/Preferences/ZoomMixer",
+				"patcherrelativepath" : "../../../Library/Preferences/ZoomMixer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
