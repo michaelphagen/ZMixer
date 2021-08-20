@@ -1,0 +1,67 @@
+#!/bin/bash
+
+SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+
+list=$($SCRIPTPATH/audio-devices list)
+if [ $1 == "input" ]
+then
+  devices=$(echo "$list" | sed '/Output Devices/q')
+elif [ $1 == "output" ]
+then
+  devices=$(echo "$list" | sed -n '/Output Devices/,$p')
+else
+  echo "Script Failed, first argument must be input or output"
+  exit
+fi
+
+re='^[0-9]+$'
+
+# Make Sure Soundflower is installed and get the ID
+  soundflower64=$($SCRIPTPATH/audio-devices list --input | grep "Soundflower (64ch)"| sed -e 's/-.*//' -e 's/ *$//')
+  soundflower2=$($SCRIPTPATH/audio-devices list --output| grep "Soundflower (2ch)"| sed -e 's/-.*//' -e 's/ *$//')
+if ! [[ $soundflower64 =~ $re ]] ; then
+   echo "error: Soundflower not found" >&2; exit 1
+fi
+#echo "SoundFlower64 Device ID is ${soundflower64}"
+#echo "SoundFlower2 Device ID is ${soundflower2}"
+
+# If there appear to be multiple devices with the same name, attempt to select the right one
+multiples=$(echo "$devices" | sed 's/.*- //' | sort | uniq -d)
+number=$(echo "$2" | sed 's/.*(\(.*\))/\1/')
+name=$(echo "$2" | sed -E "s/(.*)\ \($number\)/\1/")
+
+#echo $name
+#echo $number
+if [ $(echo "$multiples" | grep -c "$name") -ge 1 ]
+then
+  #echo "Checking Multiples"
+  selectedDevice=$(echo "$devices" | awk "/$name/{i++}i==$number{print; exit}")
+else
+  selectedDevice=$(echo "$devices" | grep "$2")
+fi
+
+# Check if the device id exists
+deviceID=$(echo "$selectedDevice" | sed -e 's/-.*//' -e 's/ *$//')
+if ! [[ $deviceID =~ $re ]] ; then
+   echo "error: Device ID not found" >&2; exit 1
+fi
+#echo "Selected Device ID is ${deviceID}"
+
+#Delete Existing Devices
+if [ $1 == "input" ]
+then
+  sudo $SCRIPTPATH/audio-devices aggregate destroy $($SCRIPTPATH/audio-devices list --input | grep "To Mixer"| sed -e 's/-.*//' -e 's/ *$//') > /dev/null 2>&1
+else
+  sudo $SCRIPTPATH/audio-devices aggregate destroy $($SCRIPTPATH/audio-devices list --output | grep "From Mixer"| sed -e 's/-.*//' -e 's/ *$//') > /dev/null 2>&1
+  sudo $SCRIPTPATH/audio-devices aggregate destroy $($SCRIPTPATH/audio-devices list --output | grep "Mixer & Monitoring"| sed -e 's/-.*//' -e 's/ *$//') > /dev/null 2>&1
+fi
+
+if [ $1 == "input" ]
+then
+  sudo $SCRIPTPATH/audio-devices aggregate create "To Mixer" $deviceID $soundflower64 > /dev/null 2>&1
+
+else
+  sudo $SCRIPTPATH/audio-devices aggregate create --json --multi-output "From Mixer" $soundflower2 $soundflower2 > /dev/null 2>&1
+  sudo $SCRIPTPATH/audio-devices aggregate create --json --multi-output "Mixer & Monitoring" $deviceID $soundflower64 > /dev/null 2>&1
+fi
+exit
