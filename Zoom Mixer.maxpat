@@ -40,6 +40,421 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-153",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 1,
+							"revision" : 11,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 457.0, 278.0, 557.0, 431.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-151",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 185.5, 215.2236328125, 50.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 100.0, 133.2236328125, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-145",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 150.5, 155.2236328125, 50.0, 35.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 100.0, 71.0, 62.0, 22.0 ],
+									"text" : "update url"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-142",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 170.25, 113.2236328125, 29.5, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 85.75, 40.0, 29.5, 22.0 ],
+									"text" : "2.5"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-140",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 361.5, 109.2236328125, 72.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 64.5, 12.2236328125, 72.0, 22.0 ],
+									"text" : "Zoom Mixer"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-135",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 396.5, 151.2236328125, 41.0, 22.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 80.0, 102.0, 41.0, 22.0 ],
+									"text" : "meow"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-120",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 238.5, 229.2236328125, 24.0, 24.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 113.0, 159.0, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-117",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 238.5, 194.2236328125, 138.0, 22.0 ],
+									"restore" : [ 0 ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "pattr ignore_this_update",
+									"varname" : "ignore_this_update"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-118",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 50.0, 194.2236328125, 121.0, 22.0 ],
+									"restore" : [ 0 ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "pattr soundflower_url",
+									"varname" : "soundflower_url"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-108",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 245.5, 151.2236328125, 134.0, 22.0 ],
+									"restore" : [ "meow" ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "pattr app_download_url",
+									"varname" : "app_download_url"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-114",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 50.0, 151.2236328125, 76.0, 22.0 ],
+									"restore" : [ 0 ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "pattr app_url",
+									"varname" : "app_url"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-105",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 245.5, 109.2236328125, 93.0, 22.0 ],
+									"restore" : [ 0 ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "pattr app_name",
+									"varname" : "app_name"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-106",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 50.0, 113.2236328125, 101.0, 22.0 ],
+									"restore" : [ 0 ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "pattr app_version",
+									"varname" : "app_version"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-14",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 139.0, 242.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, 161.0, 150.0, 20.0 ],
+									"text" : "Ignore this update"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-12",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 60.0, 141.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, 128.0, 150.0, 20.0 ],
+									"text" : "Soundflower url"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 108.0, 117.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, 71.0, 150.0, 20.0 ],
+									"text" : "App Update URL"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 274.0, 146.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, 102.0, 150.0, 20.0 ],
+									"text" : "App URL"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 153.0, 111.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, 40.0, 150.0, 20.0 ],
+									"text" : "App Version"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 106.0, 90.0, 150.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 0.0, 12.0, 150.0, 20.0 ],
+									"text" : "App Name"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-140", 0 ],
+									"source" : [ "obj-105", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-142", 0 ],
+									"source" : [ "obj-106", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-135", 0 ],
+									"source" : [ "obj-108", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-145", 0 ],
+									"source" : [ "obj-114", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-120", 0 ],
+									"source" : [ "obj-117", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-151", 0 ],
+									"source" : [ "obj-118", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-108", 0 ],
+									"source" : [ "obj-135", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-105", 0 ],
+									"source" : [ "obj-140", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-106", 0 ],
+									"source" : [ "obj-142", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-114", 0 ],
+									"source" : [ "obj-145", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-118", 0 ],
+									"source" : [ "obj-151", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 797.25, 851.0, 109.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p appManagement",
+					"varname" : "patcher[1]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -2644,7 +3059,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 1098.0, 846.0, 60.0, 22.0 ],
+					"patching_rect" : [ 1206.5, 804.0, 60.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3113,7 +3528,7 @@
 						"client_rect" : [ 1057, 45, 1440, 407 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 79, 1034, 207 ]
+						"storage_rect" : [ 583, 79, 1034, 324 ]
 					}
 ,
 					"text" : "pattrstorage basic @savemode 0",
@@ -3445,7 +3860,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-44",
-									"items" : [ "None", ",", "To Mixer", ",", "Mixer & Monitoring", ",", "Built-in Output", ",", "HDMI (1)", ",", "HDMI (2)", ",", "From Mixer", ",", "PRISM Live Studio", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Loopback Audio", ",", "ZoomAudioDevice" ],
+									"items" : [ "None", ",", "Mixer & Monitoring", ",", "Built-in Output", ",", "HDMI (1)", ",", "HDMI (2)", ",", "To Mixer", ",", "From Mixer", ",", "PRISM Live Studio", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Loopback Audio", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3472,7 +3887,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-40",
-									"items" : [ "None", ",", "To Mixer", ",", "Built-in Microphone", ",", "Antlion USB Microphone", ",", "Unknown USB Audio Device", ",", "PRISM Live Studio", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Loopback Audio", ",", "ZoomAudioDevice" ],
+									"items" : [ "None", ",", "Built-in Microphone", ",", "Antlion USB Microphone", ",", "Unknown USB Audio Device", ",", "To Mixer", ",", "PRISM Live Studio", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Loopback Audio", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
