@@ -5,9 +5,11 @@ Currently development is only for MacOS (though feel free to try it on other pla
 
 [Looking for the download? Click here](https://github.com/michaelphagen/ZoomMixer/releases)
 
-Donations [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/michaelphagen)
+Donations
 =========
-If you find this project useful and you would like to donate toward on-going development you can use the link above. Any and all donations are much appreciated!
+If you find this project useful and you would like to donate toward on-going development you can use the link below. Any and all donations are much appreciated!
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?business=E636USW93RZP6&no_recurring=0&currency_code=USD)
 
 ## Relies on:
  [Jeremy Bernstein's Shell External MAX/MSP Object](https://github.com/jeremybernstein/shell) (if building from source)
