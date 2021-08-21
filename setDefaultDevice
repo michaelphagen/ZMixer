@@ -1,0 +1,12 @@
+#/bin/bash
+SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+if [ $1 == "get" ]
+then
+  "$SCRIPTPATH/audio-devices" output get |sed -e 's/-.*//' -e 's/ *$//'
+else
+  deviceisForZM=$("$SCRIPTPATH/audio-devices" output get |grep -c "Mixer & Monitoring")
+  if [ $deviceisForZM == 1 ]
+  then
+    "$SCRIPTPATH/audio-devices" output set $1 >/dev/null 2>&1
+  fi
+fi
