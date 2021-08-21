@@ -1,0 +1,22 @@
+#!/bin/bash
+curl -LJ --output ~/Downloads/Soundflower-2.0b2.dmg https://github.com/mattingalls/Soundflower/releases/download/2.0b2/Soundflower-2.0b2.dmg
+hdiutil attach ~/Downloads/Soundflower-2.0b2.dmg
+osascript -e 'do shell script "sudo installer -pkg /Volumes/Soundflower-2.0b2/Soundflower.pkg -target /" with administrator privileges'
+if [ $? -ne 0 ]
+then
+  echo "insall failed"
+  osascript -e 'display dialog "Please approve the kernel extension from MATT INGALLS by going to System Preferences -> Security & Privacy -> the General Tab, then click OK to proceed with the installation. This will take about 5 minutes"'
+  osascript -e 'do shell script "sudo installer -pkg /Volumes/Soundflower-2.0b2/Soundflower.pkg -target /" with administrator privileges'
+  if [ $? -ne 0 ]
+  then
+    hdiutil detach /Volumes/Soundflower-2.0b2
+    rm ~/Downloads/Soundflower-2.0b2.dmg
+    osascript -e 'display dialog "The installation has failed, please install soundflower manually by following the installation instructions on Matt Ingalls Github Page. Click OK to go to the page now"'
+    open https://github.com/mattingalls/Soundflower/releases/latest
+  else
+    osascript -e 'display dialog "Soundflower installed. Please restart your computer before using the Zoom Mixer"'
+  fi
+fi
+hdiutil detach /Volumes/Soundflower-2.0b2
+rm ~/Downloads/Soundflower-2.0b2.dmg
+exit
