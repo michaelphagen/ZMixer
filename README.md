@@ -12,7 +12,7 @@ If you find this project useful and you would like to donate toward on-going dev
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?business=E636USW93RZP6&no_recurring=0&currency_code=USD)
 
 ## Relies on:
- [Jeremy Bernstein's Shell External MAX/MSP Object](https://github.com/jeremybernstein/shell) (if building from source)
+ [Jeremy Bernstein's Shell External MAX/MSP Object](https://github.com/jeremybernstein/shell) and [George Karagkiaouris' audio-devices utility](https://github.com/karaggeorge/macos-audio-devices) (if building from source)
 and either [Rogue Amoeba's Loopback](https://rogueamoeba.com/loopback/) or [Matt Ingalls' Soundflower](https://github.com/mattingalls/Soundflower)
 
 ## Setup
