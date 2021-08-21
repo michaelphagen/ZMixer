@@ -5,11 +5,17 @@ Currently development is only for MacOS (though feel free to try it on other pla
 
 [Looking for the download? Click here](https://github.com/michaelphagen/ZoomMixer/releases)
 
+Donations [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/michaelphagen)
+=========
+If you find this project useful and you would like to donate toward on-going development you can use the link above. Any and all donations are much appreciated!
+
 ## Relies on:
  [Jeremy Bernstein's Shell External MAX/MSP Object](https://github.com/jeremybernstein/shell) (if building from source)
 and either [Rogue Amoeba's Loopback](https://rogueamoeba.com/loopback/) or [Matt Ingalls' Soundflower](https://github.com/mattingalls/Soundflower)
 
 ## Setup
+# As of Version 3, the app will automatically set itself up, so the instructions below are for versions < 3.0
+
 To use the application, audio must be routed digitally through the computer. To accomplish this, Loopback/Soundflower/any other virtual audio device must be used. For this example setup, Soundflower will be used.
 
 First, [Install Soundflower](https://github.com/mattingalls/Soundflower/releases), following the instructions on the releases page.
