@@ -1,6 +1,10 @@
 #/bin/bash
 SCRIPTPATH="$( cd "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
-if [ $1 == "get" ]
+if [ $# -eq 0 ]
+then
+  "$SCRIPTPATH/audio-devices" output set $("$SCRIPTPATH/audio-devices" list | grep "Mixer & Monitoring" | sed -e 's/-.*//' -e 's/ *$//') >/dev/null 2>&1
+  exit
+elif [ $1 == "get" ]
 then
   "$SCRIPTPATH/audio-devices" output get |sed -e 's/-.*//' -e 's/ *$//'
 else
