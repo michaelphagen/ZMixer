@@ -61,7 +61,11 @@ then
   sudo "$SCRIPTPATH/audio-devices" aggregate create "To Mixer" $deviceID $soundflower64 > /dev/null 2>&1
 
 else
-  sudo "$SCRIPTPATH/audio-devices" aggregate create --json --multi-output "From Mixer" $soundflower2 $soundflower2 > /dev/null 2>&1
+  #create a device, try to add it alongside the soundflower2 as an aggregate, and then remove it.
+  sudo "$SCRIPTPATH/audio-devices" aggregate create "DummyDevice" $soundflower2 $("$SCRIPTPATH/audio-devices" list --input | awk 'NR==3{ print; }' | sed -e 's/-.*//' -e 's/ *$//')| sed -e 's/-.*//' -e 's/ *$//' > /dev/null 2>&1
+  tmpDevice=$("$SCRIPTPATH/audio-devices" list --input | grep "DummyDevice"| sed -e 's/-.*//' -e 's/ *$//')
+  sudo "$SCRIPTPATH/audio-devices" aggregate create "From Mixer" $soundflower2 $tmpDevice > /dev/null 2>&1
+  sudo "$SCRIPTPATH/audio-devices" aggregate destroy $tmpDevice > /dev/null 2>&1
   sudo "$SCRIPTPATH/audio-devices" aggregate create --json --multi-output "Mixer & Monitoring" $deviceID $soundflower64 > /dev/null 2>&1
 fi
 exit
