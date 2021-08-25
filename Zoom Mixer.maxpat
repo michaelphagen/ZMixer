@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1204.0, 224.0, 331.0, 295.0 ],
+		"rect" : [ 1093.0, 311.0, 331.0, 295.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -3190,7 +3190,7 @@
 									"patching_rect" : [ 194.25, 89.0, 29.5, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 85.75, 40.0, 29.5, 22.0 ],
-									"text" : "2.7"
+									"text" : "3."
 								}
 
 							}
@@ -3890,7 +3890,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-68",
@@ -4349,7 +4348,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1020.0, 195.0, 50.0, 22.0 ],
-									"text" : "0 3 1"
+									"text" : "0 0 0"
 								}
 
 							}
@@ -4361,7 +4360,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 917.0, 230.0, 50.0, 22.0 ],
-									"text" : "0 2 1"
+									"text" : "0 0 0"
 								}
 
 							}
@@ -4432,7 +4431,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 959.0, 16.0, 133.0, 22.0 ],
-									"restore" : [ 1 ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -4467,7 +4466,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 851.5, 23.0, 126.0, 22.0 ],
-									"restore" : [ 1 ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -5718,7 +5717,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-117",
-									"items" : [ "None", ",", "Built-in Microphone", ",", "Antlion USB Microphone", ",", "PRISM Live Studio", ",", "Loopback Audio", ",", "ZoomAudioDevice" ],
+									"items" : [ "None", ",", "Built-in Microphone", ",", "Antlion USB Microphone", ",", "Unknown USB Audio Device", ",", "PRISM Live Studio", ",", "Loopback Audio", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -7882,7 +7881,6 @@
 			}
 , 			{
 				"box" : 				{
-					"autorestore" : "preferences.json",
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-55",
@@ -8238,7 +8236,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-44",
-									"items" : [ "None", ",", "Mixer & Monitoring", ",", "To Mixer", ",", "Built-in Output", ",", "HDMI (1)", ",", "HDMI (2)", ",", "From Mixer", ",", "PRISM Live Studio", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Loopback Audio", ",", "ZoomAudioDevice" ],
+									"items" : [ "None", ",", "From Mixer", ",", "Mixer & Monitoring", ",", "To Mixer", ",", "Built-in Output", ",", "HDMI (1)", ",", "HDMI (2)", ",", "PRISM Live Studio", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Loopback Audio", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -8265,7 +8263,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-40",
-									"items" : [ "None", ",", "To Mixer", ",", "Built-in Microphone", ",", "Antlion USB Microphone", ",", "From Mixer", ",", "PRISM Live Studio", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Loopback Audio", ",", "ZoomAudioDevice" ],
+									"items" : [ "None", ",", "From Mixer", ",", "To Mixer", ",", "Built-in Microphone", ",", "Antlion USB Microphone", ",", "Unknown USB Audio Device", ",", "PRISM Live Studio", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Loopback Audio", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -23083,13 +23081,6 @@
 				"name" : "shelly.notification.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Shelly/externals",
 				"patcherrelativepath" : "../../Max 8/Packages/Shelly/externals",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "preferences.json",
-				"bootpath" : "~/Library/Preferences/ZoomMixer",
-				"patcherrelativepath" : "../../../Library/Preferences/ZoomMixer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
