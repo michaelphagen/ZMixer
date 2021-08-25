@@ -1,5 +1,7 @@
 # ZoomMixer
-A Mixer for Zoom, built in MaxMSP, and intended to be used with Loopback or Soundflower.
+A Mixer originally created for use with Zoom, built in MaxMSP, and intended to be used with Loopback or Soundflower.
+Though originally created for use with Zoom, this application can be used with any software that takes a microphone input.
+This project is not affiliated with Zoom in any way.
 
 Currently development is only for MacOS (though feel free to try it on other platforms!)
 
