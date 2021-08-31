@@ -45,8 +45,8 @@ Name the Device "To Mixer" and select the device that you normally use for micro
 
 ![Image showing the "To Mixer" Device](https://github.com/michaelphagen/ZoomMixer/blob/master/Docs/Images/To%20Mixer%20Device.png)
 
-Finally, click the + button one last time and select "Multi-Output Device" again.
-![Image showing the "To Mixer" Device and clicking on "Multi-Output Device"](https://github.com/michaelphagen/ZoomMixer/blob/master/Docs/Images/Creating%20From%20Mixer%20Device.png)
+Finally, click the + button one last time and select "Aggregate" again.
+![Image showing the "To Mixer" Device and clicking on "Aggregate Device"](https://github.com/michaelphagen/ZoomMixer/blob/master/Docs/Images/Creating%20From%20Mixer%20Device.png)
 
 Here, just choose "Soundflower (2ch)"
 

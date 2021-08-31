@@ -16,6 +16,8 @@ then
   else
     osascript -e 'display dialog "Soundflower installed. Please restart your computer before using the Zoom Mixer"'
   fi
+else
+  osascript -e 'display dialog "Soundflower installed. Please restart your computer before using the Zoom Mixer"'
 fi
 hdiutil detach /Volumes/Soundflower-2.0b2
 rm ~/Downloads/Soundflower-2.0b2.dmg
