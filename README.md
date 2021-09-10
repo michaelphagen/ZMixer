@@ -7,7 +7,7 @@ Though originally created for use with Zoom, this application can be used with a
 
 Currently development is only for MacOS (though feel free to try it on other platforms!)
 
-[Looking for the download? Click here](https://github.com/michaelphagen/ZoomMixer/releases)
+[Looking for the download? Click here](https://github.com/michaelphagen/ZoomMixer/releases/latest)
 
 Donations
 =========
