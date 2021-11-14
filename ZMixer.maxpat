@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1093.0, 311.0, 331.0, 295.0 ],
+		"rect" : [ 34.0, 79.0, 1852.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -1459,8 +1459,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 248.0, 187.5, 382.0, 22.0 ],
-									"text" : "sprintf \\\\\\\"%sZoom Mixer.app/Contents/Resources/setDefaultDevice\\\\\\\""
+									"patching_rect" : [ 248.0, 187.5, 355.0, 22.0 ],
+									"text" : "sprintf \\\\\\\"%sZMixer.app/Contents/Resources/setDefaultDevice\\\\\\\""
 								}
 
 							}
@@ -1503,13 +1503,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-10",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 244.0, 505.0, 386.0, 35.0 ],
-									"text" : "\\\"/Applications/Zoom Mixer.app/Contents/Resources/setDefault Device 0\\\""
+									"patching_rect" : [ 244.0, 505.0, 374.0, 22.0 ],
+									"text" : "\\\"/Applications/ZMixer.app/Contents/Resources/setDefault Device 0\\\""
 								}
 
 							}
@@ -1532,8 +1531,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 182.0, 469.5, 402.0, 22.0 ],
-									"text" : "sprintf \\\\\\\"%sZoom Mixer.app/Contents/Resources/setDefault Device %i\\\\\\\""
+									"patching_rect" : [ 182.0, 469.5, 375.0, 22.0 ],
+									"text" : "sprintf \\\\\\\"%sZMixer.app/Contents/Resources/setDefault Device %i\\\\\\\""
 								}
 
 							}
@@ -1620,8 +1619,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 301.5, 402.0, 22.0 ],
-									"text" : "sprintf \\\\\\\"%sZoom Mixer.app/Contents/Resources/setDefaultDevice get\\\\\\\""
+									"patching_rect" : [ 50.0, 301.5, 375.0, 22.0 ],
+									"text" : "sprintf \\\\\\\"%sZMixer.app/Contents/Resources/setDefaultDevice get\\\\\\\""
 								}
 
 							}
@@ -1917,13 +1916,13 @@
 , 											{
 												"box" : 												{
 													"id" : "obj-18",
-													"linecount" : 3,
+													"linecount" : 2,
 													"maxclass" : "message",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 50.0, 100.0, 195.0, 49.0 ],
-													"text" : "https://api.github.com/repos/michaelphagen/ZoomMixer/releases/latest"
+													"text" : "https://api.github.com/repos/michaelphagen/ZMixer/releases/latest"
 												}
 
 											}
@@ -3860,7 +3859,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 2302.0, 245.0, 343.0, 203.0 ],
+						"rect" : [ 1130.0, 357.0, 343.0, 203.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -4346,7 +4345,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1020.0, 195.0, 50.0, 22.0 ],
-									"text" : "0 3 1"
+									"text" : "0 0 0"
 								}
 
 							}
@@ -4358,7 +4357,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 917.0, 230.0, 50.0, 22.0 ],
-									"text" : "0 2 1"
+									"text" : "0 0 0"
 								}
 
 							}
@@ -4429,7 +4428,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 959.0, 16.0, 133.0, 22.0 ],
-									"restore" : [ 1 ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -4464,7 +4463,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 851.5, 23.0, 126.0, 22.0 ],
-									"restore" : [ 1 ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -4595,7 +4594,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ -139.0, 261.0, 50.0, 22.0 ],
-									"text" : "set 2"
+									"text" : "set 0"
 								}
 
 							}
@@ -4607,7 +4606,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ -76.0, 312.0, 50.0, 22.0 ],
-									"text" : "set 2"
+									"text" : "set 0"
 								}
 
 							}
@@ -4643,7 +4642,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ -35.0, 87.0, 133.0, 22.0 ],
-									"restore" : [ 2 ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -4662,7 +4661,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ -100.0, 43.0, 140.0, 22.0 ],
-									"restore" : [ 2 ],
+									"restore" : [ 0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -7259,7 +7258,7 @@
 									"patching_rect" : [ 380.0, 78.0, 100.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 117.5, 54.0, 329.0, 20.0 ],
-									"text" : "https://github.com/michaelphagen/ZoomMixer/",
+									"text" : "https://github.com/michaelphagen/ZMixer/",
 									"textoncolor" : [ 0.125490196078431, 0.180392156862745, 0.592156862745098, 1.0 ]
 								}
 
@@ -7337,7 +7336,7 @@
 									"patching_rect" : [ 19.5, 89.0, 253.0, 29.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 155.5, 1.0, 253.0, 29.0 ],
-									"text" : "Zoom Mixer",
+									"text" : "ZMixer",
 									"textjustification" : 1
 								}
 
@@ -7366,7 +7365,7 @@
 									"presentation" : 1,
 									"presentation_linecount" : 69,
 									"presentation_rect" : [ 2.0, 100.0, 560.0, 945.0 ],
-									"text" : "Zoom Mixer Copyright (c) 2021, Michael Hagen\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its\n   contributors may be used to endorse or promote products derived from\n   this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nshell Copyright (c) 2013-2018 Jeremy Bernstein and Bill Orcutt\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n\nmacos-audio-devices Copyright (c) George Karagkiaouris <gkaragkiaouris2@gmail.com> (https://gkaragkiaouris.tech)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+									"text" : "ZMixer Copyright (c) 2021, Michael Hagen\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its\n   contributors may be used to endorse or promote products derived from\n   this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\nAND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\nIMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE\nFOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\nDAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\nSERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER\nCAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,\nOR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\nOF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nshell Copyright (c) 2013-2018 Jeremy Bernstein and Bill Orcutt\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in\nall copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\nTHE SOFTWARE.\n\nmacos-audio-devices Copyright (c) George Karagkiaouris <gkaragkiaouris2@gmail.com> (https://gkaragkiaouris.tech)\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
 								}
 
 							}
@@ -8629,7 +8628,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1249.0, 487.0, 555.0, 431.0 ],
+						"rect" : [ 34.0, 79.0, 1852.0, 967.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -8657,7 +8656,41 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-20",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 170.0, 905.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 514.0, 899.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-16",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 394.0, 864.0, 50.0, 22.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-1",
 									"maxclass" : "newobj",
@@ -9580,6 +9613,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-106", 1 ],
+									"order" : 1,
+									"source" : [ "obj-70", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-20", 1 ],
 									"order" : 0,
 									"source" : [ "obj-70", 0 ]
 								}
@@ -9589,7 +9630,7 @@
 								"patchline" : 								{
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-81", 1 ],
-									"order" : 1,
+									"order" : 2,
 									"source" : [ "obj-70", 0 ]
 								}
 
@@ -9735,8 +9776,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"destination" : [ "obj-51", 0 ],
+									"destination" : [ "obj-16", 1 ],
+									"order" : 0,
 									"source" : [ "obj-94", 0 ]
 								}
 
@@ -9745,6 +9786,24 @@
 								"patchline" : 								{
 									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"destination" : [ "obj-51", 0 ],
+									"order" : 1,
+									"source" : [ "obj-94", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-18", 1 ],
+									"order" : 0,
+									"source" : [ "obj-95", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"destination" : [ "obj-51", 0 ],
+									"order" : 1,
 									"source" : [ "obj-95", 0 ]
 								}
 
@@ -23085,8 +23144,8 @@
 			}
 , 			{
 				"name" : "preferences.json",
-				"bootpath" : "~/Library/Preferences/ZoomMixer",
-				"patcherrelativepath" : "../../../Library/Preferences/ZoomMixer",
+				"bootpath" : "~/Documents/Code/ZoomMixer",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

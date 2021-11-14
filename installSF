@@ -14,10 +14,10 @@ then
     osascript -e 'display dialog "The installation has failed, please install soundflower manually by following the installation instructions on Matt Ingalls Github Page. Click OK to go to the page now"'
     open https://github.com/mattingalls/Soundflower/releases/latest
   else
-    osascript -e 'display dialog "Soundflower installed. Please restart your computer before using the Zoom Mixer"'
+    osascript -e 'display dialog "Soundflower installed. Please restart your computer before using ZMixer"'
   fi
 else
-  osascript -e 'display dialog "Soundflower installed. Please restart your computer before using the Zoom Mixer"'
+  osascript -e 'display dialog "Soundflower installed. Please restart your computer before using the ZMixer"'
 fi
 hdiutil detach /Volumes/Soundflower-2.0b2
 rm ~/Downloads/Soundflower-2.0b2.dmg
