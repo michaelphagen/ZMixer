@@ -1792,7 +1792,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 661.0, 1852.0, 496.0 ],
+						"rect" : [ 39.0, 385.0, 1852.0, 496.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2104,13 +2104,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-30",
-									"linecount" : 7,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 779.0, 117.0, 50.0, 102.0 ],
-									"text" : "https://github.com/michaelphagen/ZoomMixer/"
+									"patching_rect" : [ 779.0, 117.0, 231.0, 22.0 ],
+									"text" : "https://github.com/michaelphagen/ZMixer/"
 								}
 
 							}
@@ -2140,10 +2139,10 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 450.0, 56.2236328125, 332.0, 22.0 ],
+									"patching_rect" : [ 450.0, 56.2236328125, 231.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 87.0, 164.0, 255.0, 22.0 ],
-									"text" : "https://github.com/michaelphagen/ZoomMixer/"
+									"text" : "https://github.com/michaelphagen/ZMixer/"
 								}
 
 							}
@@ -2586,13 +2585,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-42",
-									"linecount" : 9,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 798.0, 228.0, 50.0, 129.0 ],
-									"text" : "https://github.com/michaelphagen/ZoomMixer/releases/latest"
+									"patching_rect" : [ 752.0, 254.0, 309.0, 22.0 ],
+									"text" : "https://github.com/michaelphagen/ZMixer/releases/latest"
 								}
 
 							}
@@ -2783,7 +2781,7 @@
 																	"patching_rect" : [ 34.0, 56.0, 230.0, 27.0 ],
 																	"presentation" : 1,
 																	"presentation_rect" : [ 49.5, 8.0, 184.0, 27.0 ],
-																	"text" : "New Version: 2.20"
+																	"text" : "New Version: 3.00"
 																}
 
 															}
@@ -3173,10 +3171,10 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 45.5, 183.0, 385.0, 22.0 ],
+									"patching_rect" : [ 45.5, 183.0, 361.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 100.0, 71.0, 517.0, 22.0 ],
-									"text" : "https://api.github.com/repos/michaelphagen/ZoomMixer/releases/latest"
+									"text" : "https://api.github.com/repos/michaelphagen/ZMixer/releases/latest"
 								}
 
 							}
@@ -3215,10 +3213,10 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 397.5, 151.2236328125, 332.0, 22.0 ],
+									"patching_rect" : [ 397.5, 151.2236328125, 309.0, 22.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 80.0, 102.0, 483.0, 22.0 ],
-									"text" : "https://github.com/michaelphagen/ZoomMixer/releases/latest"
+									"text" : "https://github.com/michaelphagen/ZMixer/releases/latest"
 								}
 
 							}
@@ -3306,7 +3304,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 50.0, 113.2236328125, 101.0, 22.0 ],
-									"restore" : [ 2.7 ],
+									"restore" : [ 3.0 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -3625,7 +3623,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-30", 1 ],
-									"order" : 1,
+									"order" : 0,
 									"source" : [ "obj-23", 0 ]
 								}
 
@@ -3633,7 +3631,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-23", 0 ]
 								}
 
@@ -4348,7 +4346,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1020.0, 195.0, 50.0, 22.0 ],
-									"text" : "0 0 0"
+									"text" : "0 3 1"
 								}
 
 							}
@@ -4360,7 +4358,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 917.0, 230.0, 50.0, 22.0 ],
-									"text" : "0 0 0"
+									"text" : "0 2 1"
 								}
 
 							}
@@ -4431,7 +4429,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 959.0, 16.0, 133.0, 22.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ 1 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -4466,7 +4464,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 851.5, 23.0, 126.0, 22.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ 1 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -4597,7 +4595,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ -139.0, 261.0, 50.0, 22.0 ],
-									"text" : "set 0"
+									"text" : "set 2"
 								}
 
 							}
@@ -4609,7 +4607,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ -76.0, 312.0, 50.0, 22.0 ],
-									"text" : "set 0"
+									"text" : "set 2"
 								}
 
 							}
@@ -4645,7 +4643,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ -35.0, 87.0, 133.0, 22.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ 2 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -4664,7 +4662,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ -100.0, 43.0, 140.0, 22.0 ],
-									"restore" : [ 0 ],
+									"restore" : [ 2 ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0,
 										"parameter_mappable" : 0
@@ -5717,7 +5715,7 @@
 									"fontsize" : 14.0,
 									"hint" : "",
 									"id" : "obj-117",
-									"items" : [ "None", ",", "Built-in Microphone", ",", "Antlion USB Microphone", ",", "Unknown USB Audio Device", ",", "PRISM Live Studio", ",", "Loopback Audio", ",", "ZoomAudioDevice" ],
+									"items" : [ "None", ",", "Built-in Microphone", ",", "PRISM Live Studio", ",", "Loopback Audio", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -7311,7 +7309,7 @@
 									"patching_rect" : [ 207.0, 108.0, 150.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 207.0, 32.0, 150.0, 20.0 ],
-									"text" : "Version:  2.70",
+									"text" : "Version:  3.00",
 									"textjustification" : 1
 								}
 
@@ -7726,8 +7724,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1167.5, 203.0, 621.0, 22.0 ],
-					"text" : "if [ -d ~/Library/Preferences/ZoomMixer ] \\; then echo 1\\; else mkdir ~/Library/Preferences/ZoomMixer && echo 0\\; fi"
+					"patching_rect" : [ 1167.5, 203.0, 574.0, 22.0 ],
+					"text" : "if [ -d ~/Library/Preferences/ZMixer ] \\; then echo 1\\; else mkdir ~/Library/Preferences/ZMixer && echo 0\\; fi"
 				}
 
 			}
@@ -7860,8 +7858,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 895.0, 97.5, 331.0, 23.0 ],
-					"text" : "read ~/Library/Preferences/ZoomMixer/preferences.json"
+					"patching_rect" : [ 895.0, 97.5, 306.0, 23.0 ],
+					"text" : "read ~/Library/Preferences/ZMixer/preferences.json"
 				}
 
 			}
@@ -7874,13 +7872,14 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 887.0, 65.5, 333.0, 23.0 ],
-					"text" : "write ~/Library/Preferences/ZoomMixer/preferences.json"
+					"patching_rect" : [ 887.0, 65.5, 307.0, 23.0 ],
+					"text" : "write ~/Library/Preferences/ZMixer/preferences.json"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "preferences.json",
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-55",
@@ -8073,7 +8072,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-45",
-									"items" : [ 44100, ",", 48000 ],
+									"items" : [ 44100, ",", 48000, ",", 88200, ",", 96000, ",", 176400, ",", 192000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -8236,7 +8235,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-44",
-									"items" : [ "None", ",", "From Mixer", ",", "Mixer & Monitoring", ",", "To Mixer", ",", "Built-in Output", ",", "HDMI (1)", ",", "HDMI (2)", ",", "PRISM Live Studio", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Loopback Audio", ",", "ZoomAudioDevice" ],
+									"items" : [ "None", ",", "To Mixer", ",", "Mixer & Monitoring", ",", "Built-in Output", ",", "HDMI (1)", ",", "HDMI (2)", ",", "From Mixer", ",", "PRISM Live Studio", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Loopback Audio", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -8263,7 +8262,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-40",
-									"items" : [ "None", ",", "From Mixer", ",", "To Mixer", ",", "Built-in Microphone", ",", "Antlion USB Microphone", ",", "Unknown USB Audio Device", ",", "PRISM Live Studio", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Loopback Audio", ",", "ZoomAudioDevice" ],
+									"items" : [ "None", ",", "To Mixer", ",", "Built-in Microphone", ",", "From Mixer", ",", "PRISM Live Studio", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Loopback Audio", ",", "ZoomAudioDevice" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -11426,7 +11425,7 @@
 													"allowdrag" : 0,
 													"fontsize" : 11.595186999999999,
 													"id" : "obj-28",
-													"items" : [ "Wireless Keyboard", ",", "Wireless Trackpad", ",", "Apple Mikey HID Driver", ",", "Antlion USB Microphone", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3" ],
+													"items" : [ "Wireless Keyboard", ",", "Wireless Trackpad", ",", "Apple Mikey HID Driver", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3" ],
 													"labelclick" : 1,
 													"maxclass" : "umenu",
 													"numinlets" : 1,
@@ -23081,6 +23080,13 @@
 				"name" : "shelly.notification.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/Shelly/externals",
 				"patcherrelativepath" : "../../Max 8/Packages/Shelly/externals",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "preferences.json",
+				"bootpath" : "~/Library/Preferences/ZoomMixer",
+				"patcherrelativepath" : "../../../Library/Preferences/ZoomMixer",
 				"type" : "JSON",
 				"implicit" : 1
 			}
